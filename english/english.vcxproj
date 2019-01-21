@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{195F9B72-C7DC-44AA-A420-80ECEAD3819A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>english</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalManifestDependencies>"type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' processorArchitecture='*' publicKeyToken='6595b64144ccf1df' language='*'";%(AdditionalManifestDependencies)</AdditionalManifestDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalManifestDependencies>"type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' processorArchitecture='*' publicKeyToken='6595b64144ccf1df' language='*'"</AdditionalManifestDependencies>
+      <AdditionalOptions>comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib</AdditionalOptions>
+      <EntryPointSymbol>WinMainCRTStartup</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Dictionary.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MainWindow.cpp" />
+    <ClCompile Include="String.cpp" />
+    <ClCompile Include="Style.cpp" />
+    <ClCompile Include="TestInfo.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseWindow.hpp" />
+    <ClInclude Include="Dictionary.hpp" />
+    <ClInclude Include="Globals.hpp" />
+    <ClInclude Include="MainWindow.hpp" />
+    <ClInclude Include="Resource.hpp" />
+    <ClInclude Include="String.hpp" />
+    <ClInclude Include="Style.hpp" />
+    <ClInclude Include="TestInfo.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="english.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="ae_pressed.bmp" />
+    <Image Include="ae_released.bmp" />
+    <Image Include="assets\ae_pressed.bmp" />
+    <Image Include="assets\ae_released.bmp" />
+    <Image Include="assets\a_pressed.bmp" />
+    <Image Include="assets\a_released.bmp" />
+    <Image Include="assets\bitmap1.bmp" />
+    <Image Include="assets\bitmap11.bmp" />
+    <Image Include="assets\bitmap38.bmp" />
+    <Image Include="assets\ch_pressed.bmp" />
+    <Image Include="assets\ch_released.bmp" />
+    <Image Include="assets\clear_pressed.bmp" />
+    <Image Include="assets\clear_released.bmp" />
+    <Image Include="assets\del_pressed.bmp" />
+    <Image Include="assets\del_released.bmp" />
+    <Image Include="assets\dj_pressed.bmp" />
+    <Image Include="assets\dj_released.bmp" />
+    <Image Include="assets\er_pressed.bmp" />
+    <Image Include="assets\er_released.bmp" />
+    <Image Include="assets\e_pressed.bmp" />
+    <Image Include="assets\e_released.bmp" />
+    <Image Include="assets\i_pressed.bmp" />
+    <Image Include="assets\i_released.bmp" />
+    <Image Include="assets\j_pressed.bmp" />
+    <Image Include="assets\j_released.bmp" />
+    <Image Include="assets\new_pressed.bmp" />
+    <Image Include="assets\new_released.bmp" />
+    <Image Include="assets\n_pressed.bmp" />
+    <Image Include="assets\n_released.bmp" />
+    <Image Include="assets\o_pressed.bmp" />
+    <Image Include="assets\o_released.bmp" />
+    <Image Include="assets\select_pressed.bmp" />
+    <Image Include="assets\select_released.bmp" />
+    <Image Include="assets\sh_pressed.bmp" />
+    <Image Include="assets\sh_released.bmp" />
+    <Image Include="assets\start_pressed.bmp" />
+    <Image Include="assets\start_released.bmp" />
+    <Image Include="assets\stop_pressed.bmp" />
+    <Image Include="assets\stop_released.bmp" />
+    <Image Include="assets\tho_pressed.bmp" />
+    <Image Include="assets\tho_released.bmp" />
+    <Image Include="assets\th_pressed.bmp" />
+    <Image Include="assets\th_released.bmp" />
+    <Image Include="assets\u_pressed.bmp" />
+    <Image Include="assets\u_released.bmp" />
+    <Image Include="assets\v_pressed.bmp" />
+    <Image Include="assets\v_released.bmp" />
+    <Image Include="bitmap1.bmp" />
+    <Image Include="bitmap2.bmp" />
+    <Image Include="bitmap3.bmp" />
+    <Image Include="v_pressed.bmp" />
+    <Image Include="v_released.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

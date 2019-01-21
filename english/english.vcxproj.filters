@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dictionary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Style.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="String.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainWindow.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseWindow.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dictionary.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestInfo.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Style.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="String.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="english.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmap2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmap3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ae_released.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ae_pressed.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="v_released.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="v_pressed.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\ae_released.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\ae_pressed.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\v_released.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\v_pressed.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\a_released.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\a_pressed.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\o_released.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\o_pressed.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\u_released.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\u_pressed.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\er_released.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\bitmap11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\er_pressed.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\e_released.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\e_pressed.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\i_released.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\i_pressed.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\tho_released.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\tho_pressed.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\th_released.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\th_pressed.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\sh_released.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\sh_pressed.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\dj_released.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\dj_pressed.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\ch_released.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\ch_pressed.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\j_released.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\j_pressed.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\n_released.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\n_pressed.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\del_released.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\del_pressed.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\new_released.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\new_pressed.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\select_released.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\select_pressed.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\bitmap38.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\start_released.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\start_pressed.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\stop_released.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\stop_pressed.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\clear_released.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\clear_pressed.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
